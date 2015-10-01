@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- layout for palettes, user can select different color -->
+<!-- Author: Yang Zhang(Lucas) -->
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="5" >
+
+    <Button
+        android:id="@+id/silver_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/silver_button"
+        android:layout_margin="2dp"
+        android:onClick="selectColor"/>
+    
+    <Button
+        android:id="@+id/red_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/red_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor" />
+
+    <Button
+        android:id="@+id/cyan_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/cyan_button" 
+        android:layout_margin="2dp"
+        android:onClick="selectColor"/>
+    
+    
+    <Button
+        android:id="@+id/blue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/blue_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor" />
+
+    <Button
+        android:id="@+id/lime_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/lime_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor"/>
+    
+    <Button
+        android:id="@+id/green_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/green_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor" />
+
+    <Button
+        android:id="@+id/yellow_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/yellow_button" 
+        android:layout_margin="2dp"
+        android:onClick="selectColor"/>
+    
+    <Button
+        android:id="@+id/orange_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/orange_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor" />
+
+    <Button
+        android:id="@+id/violet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/violet_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor"/>
+
+    <Button
+        android:id="@+id/purple_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/buttonStyleSmall"
+        android:background="@drawable/purple_button"
+        android:layout_margin="2dp" 
+        android:onClick="selectColor" />
+
+</GridLayout>

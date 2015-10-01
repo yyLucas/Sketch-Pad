@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- orange button with selector -->
+<!-- Author: Yang Zhang(Lucas) -->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:state_pressed="true">
+	    <shape android:shape="rectangle">
+            <corners android:radius="5dp" />
+            <solid android:color="#FFA500" />
+            <stroke android:width="5dp" android:color="#000000" />
+        </shape>
+    </item>  
+    
+    <item android:state_selected="true"> 
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp" />
+            <solid android:color="#FFA500" />
+            <stroke android:width="5dp" android:color="#000000" />
+        </shape>
+    </item>
+    
+	<item> 
+		<shape android:shape="rectangle">
+            <corners android:radius="5dp" />
+            <solid android:color="#FFA500" />
+            <stroke android:width="2dp" android:color="#000000" />
+        </shape>
+    </item>
+
+</selector>
+
+

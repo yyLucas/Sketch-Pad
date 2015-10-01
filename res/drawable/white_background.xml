@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- white background with black border-->
+<!-- Author: Yang Zhang(Lucas) -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="#FFFFFF" />
+
+    <stroke
+        android:width="2dp"
+        android:color="#000000" />
+
+</shape>

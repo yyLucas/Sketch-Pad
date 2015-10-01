@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- button layout-->
+<!-- Author: Yang Zhang(Lucas) -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_background"
+    
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/saveBtn"
+        android:layout_margin="2dp"
+        style="?android:attr/buttonStyleSmall"
+        tools:ignore="ButtonStyle" 
+        android:onClick="selectFunction"/>
+
+    <Button
+        android:id="@+id/resetBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resetBtn"
+        android:layout_margin="2dp"
+        style="?android:attr/buttonStyleSmall"
+        tools:ignore="ButtonStyle" 
+        android:onClick="selectFunction"/>
+
+    <Button
+        android:id="@+id/emailBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/emailBtn" 
+        android:layout_margin="2dp"
+        style="?android:attr/buttonStyleSmall"
+        tools:ignore="ButtonStyle"
+        android:onClick="selectFunction"/>
+
+    <Button
+        android:id="@+id/exitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exitBtn" 
+        android:layout_margin="2dp"
+        style="?android:attr/buttonStyleSmall"
+        tools:ignore="ButtonStyle"
+        android:onClick="selectFunction"/>
+
+</LinearLayout>

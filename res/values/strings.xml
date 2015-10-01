@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SketchPad</string>
+    <string name="action_settings">Settings</string>
+    <string name="shapeTextView">Shapes</string>
+    
+    <string name="saveBtn">Save</string>
+    <string name="resetBtn">Reset</string>
+    <string name="emailBtn">Email</string>
+    <string name="exitBtn">Exit</string>
+    
+
+</resources>

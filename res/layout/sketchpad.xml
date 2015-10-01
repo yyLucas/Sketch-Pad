@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- main layout, contains four parts: palette layout, shape layout, drawing window, and button layout -->
+<!-- Author: Yang Zhang(Lucas) -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87C1D4"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/leftLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="2dp"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/paletteLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/palette_tool" />
+        
+        <include
+            android:id="@+id/shapeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/shape_tool" />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rightLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="2dp"
+        android:layout_toEndOf="@+id/leftLayout">
+        
+        <unitec.lucas.sketchpad.DrawView
+            android:id="@+id/paint_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btnControlLayout"
+            android:layout_margin="2dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/white_background"/>
+
+        <include
+            android:id="@+id/btnControlLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="2dp"
+            layout="@layout/button_control" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
